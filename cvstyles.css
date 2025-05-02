@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
+
+*{
+    font-family: "National Park", Arial, sans-serif;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    width:50%;
+    display:flex;
+    justify-content: space-around;
+}
+
+ul{
+   list-style: none; 
+   display: flex;   
+   padding: 0;       
+   margin: 0; 
+   justify-content: center;
+   
+}
+
+.items{
+    width: 15%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.items:hover{
+    transition: transform 0.4s ease;
+    transform: scale(1.25);
+}
+
+.personal_pic{
+    width: 17%;
+    margin-left: 200px;
+    padding-right: 20px;
+}
+
+.personal_pic:hover{
+    transition: transform 0.4s ease;
+    transform: scale(1.1);
+}
+
+h1{
+    width: 99%;
+    font-family: "Roboto", Arial, sans-serif;
+    text-align: center;
+    font-size: 60px;
+    color:lightblue;
+    text-decoration: wavy;
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5);
+}
+
+h2{
+    width: 99%;
+    text-align: center;
+    font-size: 45px;
+    font-family: "Varela Round", Arial, sans-serif;
+    color:rgb(25, 25, 111);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+.presentacion{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image:linear-gradient(to bottom, rgb(7, 7, 85), lightblue);
+    border-bottom: 20px, solid, blue;
+}
+
+h3{
+    font-family: "Outfit", Arial, sans-serif;
+    font-size: 35px;
+    display: inline-block;
+    color: rgb(40, 40, 208);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.secciones{
+    border: 5px, solid, darkblue;
+    border-radius: 50px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 1.5%;
+    margin-bottom: 3%;
+    align-items: center;
+    background-color: rgb(181, 221, 245);
+}
+
+.seccion_titulo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    
+}
+
+.logo_titulo{
+    width: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.personal_info p{
+    width: 80%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.informacion_personal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: rgb(158, 167, 167);
+    border-top: 1.5px solid #00171F;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.imagen_logo{
+    width: 50px;
+}
+
+.logos{
+    width: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logos1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.imagen_logo:hover{
+    animation: rotar 1.5s linear 1; 
+}
+
+  @keyframes rotar {
+    from {
+      transform: rotateY(0deg); 
+    }
+    to {
+      transform: rotateY(360deg); 
+    }
+  }
+
+.experiencia{
+    margin-top: 0;
+    width: 100%;
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: #00171F;
+    border-top: 3px, solid rgb(4, 4, 61);
+    margin-bottom: 0;
+}
+
+.titulo_experiencia{
+    width: 40%;
+}
+
+.trabajos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.trabajo{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto_trabajo{
+    border: 5px solid #003459;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.logo_trabajo{
+    padding-top: 20px;
+    width: 70%;
+    padding-bottom: 20px;
+}
+
+.experiencia h4{
+    font-size: 25px;
+    color: #007ea7;
+    text-shadow: 1px 1px 2px whitesmoke;
+}
+
+h5{
+    color: grey;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.experiencia p{
+    color: beige;
+}
+
+.ubicacion{
+    font-size: 15px;
+}
+
+.formacion_academica{
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 0;
+    border-radius: 0;
+    width: auto;
+    
+}
+
+.titulo_formacion{
+    width: 50%;
+}
+
+h4{
+    font-size: 27px;
+}
+
+.formacion_academica h5{
+    color: darkblue;
+
+}
+
+.formacion_academica_img{
+    width: 20%;
+}
+.formacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.formacion p{
+    width: 50%;
+}
+.titulo_logo{
+    display: flex;
+
+}
+
+.ijh{
+    margin-bottom: 0;
+}
+
+.proyectos{
+    width: 100%;
+    margin-top: 0;
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 3px solid lightseagreen;
+    background-color: #003459;
+}
+
+.titulo_proyectos{
+    width: 35%;
+    text-shadow: 3px 3px 5px rgba(160, 147, 147, 0.795);
+    color: black;
+}
+
+.proyecto{
+    border-radius: 10px;
+}
+
+.mis_proyectos{
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.proyecto_img{
+    position: relative;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.logo_game{
+    border: 5px solid rgb(49, 6, 82);
+}
+
+.lotos_barber{
+    border: 5px solid grey;
+}
+
+.div_proyecto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+.div_proyecto h4{
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 0.25px rgb(255, 255, 255);
+    font-size: 32px;
+}
+
+.proyecto:hover{
+    transition: transform 0.4s ease;
+    transform: scale(1.1);
+}
+
+.proyectos{
+    margin-bottom: 0;
+}
+
+footer{
+    background-color: rgb(77, 80, 86);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 3px solid black;
+    width: 100%;
+
+}
+
+footer p{
+    font-size: 20px;
+    color: whitesmoke;
+    width: auto;
+    margin-left: 20px;
+}
+
+footer .contacto{
+    width: 30%;
+}
